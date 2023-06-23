@@ -74,7 +74,7 @@ class AllJobs extends Component {
 
   componentDidMount = () => {
     this.onGetProfileDetails()
-    this.onGetProfileDetails()
+    this.onGetJobDetails()
   }
 
   onGetProfileDetails = async () => {

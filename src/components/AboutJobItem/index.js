@@ -69,7 +69,6 @@ class AboutJobItem extends Component {
       const updatedSimilarJobDetails = fetchedJobData.similar_jobs.map(
         eachItem => ({
           companyLogoUrl: eachItem.company_logo_url,
-
           id: eachItem.id,
           jobDescription: eachItem.job_description,
           employmentType: eachItem.employment_type,
@@ -199,7 +198,7 @@ class AboutJobItem extends Component {
       />
       <h1>Oops! Something Went Wrong</h1>
       <p>we cannot seem to find the page you are looking for.</p>
-      <div className="brn-container-failure">
+      <div className="btn-container-failure">
         <button
           className="failure-jod-details-btn"
           type="button"

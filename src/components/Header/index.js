@@ -24,6 +24,9 @@ const Header = props => {
         <li className="home-jobs-container">
           <Link className="link" to="/">
             <ImHome className="home-icon" />
+            <h1 className="nav-text">Home</h1>
+          </Link>
+          <Link className="link" to="/jobs">
             <h1 className="nav-text">Jobs</h1>
           </Link>
         </li>
